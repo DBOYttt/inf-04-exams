@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diceroll.MainPage"
+             Background="#F5F5DC">
+
+    <StackLayout Padding="10">
+        <Label Text="Gra w kości. Autor Andrzej Nazim"
+               FontSize="24"
+               TextColor="#A52A2A"
+               HorizontalOptions="Center"
+               Margin="0,10,0,10"/>
+        <Button Text="RZUĆ KOŚĆMI"
+                BackgroundColor="#D2691E"
+                TextColor="White"
+                Clicked="OnRollDiceClicked"
+                HorizontalOptions="Center"
+                Margin="0,10,0,10"/>
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     BackgroundColor="White"
+                     Margin="0,10,0,10">
+            <Image x:Name="Dice1" Source="question.jpg" WidthRequest="60" HeightRequest="60" Margin="9"/>
+            <Image x:Name="Dice2" Source="question.jpg" WidthRequest="60" HeightRequest="60" Margin="9"/>
+            <Image x:Name="Dice3" Source="question.jpg" WidthRequest="60" HeightRequest="60" Margin="9"/>
+            <Image x:Name="Dice4" Source="question.jpg" WidthRequest="60" HeightRequest="60" Margin="9"/>
+            <Image x:Name="Dice5" Source="question.jpg" WidthRequest="60" HeightRequest="60" Margin="9"/>
+        </StackLayout>
+        <Label x:Name="RollResultLabel"
+               Text="Wynik tego losowania: 0"
+               HorizontalOptions="Center"
+               Margin="0,10,0,10"/>
+        <Label x:Name="GameResultLabel"
+               Text="Wynik gry: 0"
+               HorizontalOptions="Center"
+               Margin="0,10,0,10"/>
+        <Button Text="RESETUJ WYNIK"
+                BackgroundColor="#D2691E"
+                TextColor="White"
+                Clicked="OnResetClicked"
+                HorizontalOptions="Center"
+                Margin="0,10,0,10"/>
+    </StackLayout>
+
+
+
+</ContentPage>
