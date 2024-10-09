@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andrz\\source\\repos\\Diceroll\\Diceroll\\Diceroll.csproj": {}
+    "C:\\Users\\andrz\\Documents\\GitHub\\inf-04-exams\\INF.04-01-24.06-SG\\Diceroll\\Diceroll\\Diceroll.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andrz\\source\\repos\\Diceroll\\Diceroll\\Diceroll.csproj": {
+    "C:\\Users\\andrz\\Documents\\GitHub\\inf-04-exams\\INF.04-01-24.06-SG\\Diceroll\\Diceroll\\Diceroll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andrz\\source\\repos\\Diceroll\\Diceroll\\Diceroll.csproj",
+        "projectUniqueName": "C:\\Users\\andrz\\Documents\\GitHub\\inf-04-exams\\INF.04-01-24.06-SG\\Diceroll\\Diceroll\\Diceroll.csproj",
         "projectName": "Diceroll",
-        "projectPath": "C:\\Users\\andrz\\source\\repos\\Diceroll\\Diceroll\\Diceroll.csproj",
+        "projectPath": "C:\\Users\\andrz\\Documents\\GitHub\\inf-04-exams\\INF.04-01-24.06-SG\\Diceroll\\Diceroll\\Diceroll.csproj",
         "packagesPath": "C:\\Users\\andrz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andrz\\source\\repos\\Diceroll\\Diceroll\\obj\\",
+        "outputPath": "C:\\Users\\andrz\\Documents\\GitHub\\inf-04-exams\\INF.04-01-24.06-SG\\Diceroll\\Diceroll\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -8,35 +8,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Diceroll
-build_property.ProjectDir = C:\Users\andrz\source\repos\Diceroll\Diceroll\
+build_property.ProjectDir = C:\Users\andrz\Documents\GitHub\inf-04-exams\INF.04-01-24.06-SG\Diceroll\Diceroll\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/andrz/source/repos/Diceroll/Diceroll/App.xaml]
+[C:/Users/andrz/Documents/GitHub/inf-04-exams/INF.04-01-24.06-SG/Diceroll/Diceroll/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Diceroll.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/andrz/source/repos/Diceroll/Diceroll/AppShell.xaml]
+[C:/Users/andrz/Documents/GitHub/inf-04-exams/INF.04-01-24.06-SG/Diceroll/Diceroll/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Diceroll.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/andrz/source/repos/Diceroll/Diceroll/MainPage.xaml]
+[C:/Users/andrz/Documents/GitHub/inf-04-exams/INF.04-01-24.06-SG/Diceroll/Diceroll/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Diceroll.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/andrz/source/repos/Diceroll/Diceroll/Resources/Styles/Colors.xaml]
+[C:/Users/andrz/Documents/GitHub/inf-04-exams/INF.04-01-24.06-SG/Diceroll/Diceroll/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Diceroll.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/andrz/source/repos/Diceroll/Diceroll/Resources/Styles/Styles.xaml]
+[C:/Users/andrz/Documents/GitHub/inf-04-exams/INF.04-01-24.06-SG/Diceroll/Diceroll/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Diceroll.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
