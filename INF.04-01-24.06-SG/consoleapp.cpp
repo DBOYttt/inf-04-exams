@@ -4,12 +4,28 @@
 #include <ctime>
 #include <cstdlib>
 
+/**
+ * Rolls a specified number of dice and stores the results in a vector.
+ *
+ * @param numDice The number of dice to roll (should be between 3 and 10).
+ * @param results A reference to a vector where the rolled results will be stored.
+ *                The vector will be cleared before new results are added.
+ */
+
 void rollDice(int numDice, std::vector<int>& results) {
     results.clear();
     for (int i = 0; i < numDice; ++i) {
         results.push_back(rand() % 6 + 1);
     }
 }
+
+/**
+ * Calculates the points based on the rolled dice results.
+ * Points are awarded for each unique die value that appears at least twice.
+ *
+ * @param results A constant reference to a vector containing the results of the dice rolls.
+ * @return The total points calculated based on the rolled results.
+ */
 
 int calculatePoints(const std::vector<int>& results) {
     std::map<int, int> counts;
