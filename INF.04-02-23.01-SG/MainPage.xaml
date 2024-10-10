@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="INF._04_02_23._01_SG_mobileapp.MainPage">
+
+    <StackLayout Padding="10">
+        <StackLayout Orientation="Horizontal">
+            <Entry x:Name="NewItemEntry" Placeholder="Nowy Element" HorizontalOptions="FillAndExpand"/>
+            <Button Text="DODAJ" BackgroundColor="#DC143C" TextColor="White" Clicked="OnAddButtonClicked"/>
+            
+        </StackLayout>
+
+        <ListView x:Name="NotesListView" SeparatorColor="#DC143C">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding .}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
